@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="select_registration_type">Select Registration Type</string>
+    <string-array name="reg_type_array">
+        <item>Full Time</item>
+        <item>Part Time</item>
+        <item>Short Course</item>
+    </string-array>
+</resources>

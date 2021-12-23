@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/student_id"
+            android:layout_width="400dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/colorAccent"
+            android:text="Student Id:"
+            android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editStudentID"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Student Id" />
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Name:"
+            android:textSize="24sp" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Name" />
+
+        <TextView
+            android:id="@+id/address_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Address:"
+            android:textSize="24sp" />
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Address" />
+
+        <TextView
+            android:id="@+id/contact_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Contact Number:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edit_contact"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Contact Number" />
+
+        <TextView
+            android:id="@+id/email_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Email:"
+            android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Email Address" />
+
+        <TextView
+            android:id="@+id/dob_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Date of Birth:"
+
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edit_dob"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:focusable="false"
+            android:clickable="true"
+            android:text="Select Date"
+             />
+        <TextView
+            android:id="@+id/reg_view"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorAccent"
+            android:text="Registration Status:"
+            android:textSize="24sp"
+            />
+
+        <EditText
+            android:id="@+id/edit_reg"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:focusable="false"
+            android:clickable="true"
+            android:text="@string/select_registration_type"
+            />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="120dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="130dp"
+            android:text="Confirm"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
